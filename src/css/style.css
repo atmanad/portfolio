@@ -203,3 +203,8 @@ div.progress {
 .project-title {
   font-family: Architects Daughter;
 }
+.hr-light {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}

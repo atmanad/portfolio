@@ -16,8 +16,7 @@ export default class intro extends Component {
                 />
                 <h2
                   className="display-4 font-weight-bold white-text pt-5 mb-2"
-                  data-aos="zoom-out"
-                >
+                  data-aos="zoom-out"                >
                   Hey!, I'm Atman
                 </h2>
                 <hr className="hr-light" />
