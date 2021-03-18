@@ -17,7 +17,7 @@ class footer extends React.Component {
           </div>
           <div className="s-icon in d-inline-block" data-aos="zoom-in">
             <a
-              href="https://www.instagram.com/__ghost_1/"
+              href="https://www.instagram.com/__gh00st/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
   background-color: #29a819;
 }
 #intro {
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg.webp");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,4 +207,7 @@ div.progress {
   width: 60vw;
   margin-left: auto;
   margin-right: auto;
+}
+.project-link {
+  color: #000205;
 }
