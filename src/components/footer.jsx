@@ -4,9 +4,10 @@ import { MDBIcon } from "mdbreact";
 class footer extends React.Component {
   render() {
     return (
-      <div className="container-fluid py-50 bg-theme" id="contact">
+      <div className="container-fluid py-80 bg-theme" id="contact">
+        <h2 className="text-center text-white h2 mb-5">Contact Me</h2>
         <div className="text-center">
-          <div className="s-icon fb d-inline-block" data-aos="zoom-in">
+          <div className="s-icon fb d-inline-block">
             <a
               href="https://www.facebook.com/atmanad.GH00ST"
               target="_blank"
@@ -15,7 +16,7 @@ class footer extends React.Component {
               <MDBIcon fab icon="facebook" />
             </a>
           </div>
-          <div className="s-icon in d-inline-block" data-aos="zoom-in">
+          <div className="s-icon in d-inline-block">
             <a
               href="https://www.instagram.com/__gh00st/"
               target="_blank"
@@ -24,7 +25,7 @@ class footer extends React.Component {
               <MDBIcon fab icon="instagram" />
             </a>
           </div>
-          <div className="s-icon li d-inline-block" data-aos="zoom-in">
+          <div className="s-icon li d-inline-block">
             <a
               href="https://www.linkedin.com/in/atmanad/"
               target="_blank"
@@ -33,12 +34,12 @@ class footer extends React.Component {
               <MDBIcon fab icon="linkedin" />
             </a>
           </div>
-          <div className="s-icon phone d-inline-block" data-aos="zoom-in">
+          <div className="s-icon phone d-inline-block">
             <a href="tel:7008635343">
               <MDBIcon icon="phone-alt" />
             </a>
           </div>
-          <div className="s-icon mail d-inline-block" data-aos="zoom-in">
+          <div className="s-icon mail d-inline-block">
             <a href="mailto:atmanad0001@gmail.com">
               <MDBIcon far icon="envelope" />
             </a>

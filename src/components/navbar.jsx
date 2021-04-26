@@ -23,7 +23,7 @@ class NavbarPage extends Component {
       <Router>
         <MDBNavbar className="bg-theme fixed-top" dark expand="md">
           <MDBNavbarBrand>
-            <strong className="white-text fs-30">Atman Das</strong>
+            <strong className="white-text fs-30 pl-3">ATMAN DAS</strong>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -36,6 +36,11 @@ class NavbarPage extends Component {
               <MDBNavItem className="p-2">
                 <a href="#skills" className="white-text mx-3 fs-20">
                   Skills
+                </a>
+              </MDBNavItem>
+              <MDBNavItem className="p-2">
+                <a href="#education" className="white-text mx-3 fs-20">
+                  Education
                 </a>
               </MDBNavItem>
               <MDBNavItem className="p-2">

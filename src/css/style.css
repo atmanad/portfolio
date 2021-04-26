@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 .text-theme {
   color: #000205;
-  font-family: Architects Daughter;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .s-icon {
   cursor: pointer;
@@ -57,13 +57,6 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-@font-face {
-  font-family: Architects Daughter;
-  src: url(./ArchitectsDaughter-Regular.ttf);
-}
-.navbar-brand {
-  font-family: Architects Daughter;
 }
 .nav-link {
   font-size: 16px;
@@ -178,6 +171,14 @@ div.progress {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 #skills .fab {
   font-size: 90px;
 }
@@ -200,9 +201,6 @@ div.progress {
 .project-image {
   max-height: 245px;
 }
-.project-title {
-  font-family: Architects Daughter;
-}
 .hr-light {
   width: 60vw;
   margin-left: auto;
@@ -210,4 +208,71 @@ div.progress {
 }
 .project-link {
   color: #000205;
+}
+.circle {
+  padding: 16px 20px;
+  border-radius: 30%;
+  background-color: #000205;
+}
+i {
+  color: white;
+}
+.connecting-lies.row .col-2 {
+  align-self: stretch;
+}
+.connecting-lies.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #000205;
+  z-index: 1;
+}
+.connecting-lines.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.connecting-lines.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.connecting-lines.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #000205;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #000205;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
 }

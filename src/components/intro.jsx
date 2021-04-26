@@ -21,10 +21,10 @@ export default class intro extends Component {
                 </h2>
                 <hr className="hr-light" />
                 <h4 className="white-text mt-4 mb-2" data-aos="zoom-out">
-                  Web Developer
+                  An IT undergraduate passionate about Web Development
                 </h4>
                 <h4 className="white-text" data-aos="zoom-out">
-                  Web Development Lead
+                  Web Dev Lead
                   <br className="d-sm-none" /> @
                   <a href="https://dsccvrgu.tech" target="_blank" rel="noopener noreferrer">
                     DSC CVRGU

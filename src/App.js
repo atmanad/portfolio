@@ -7,6 +7,7 @@ import Projects from "./components/projects";
 import Footer from "./components/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Education from "./components/Education";
 AOS.init();
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Navbar />
         <Intro />
         <Skills />
+        <Education />
         <Projects />
         <Footer />
       </div>

@@ -3,8 +3,8 @@ import React from "react";
 class Main extends React.Component {
   render() {
     return (
-      <div id="skills">
-        <div className="container my-60">
+      <div id="skills" className="my-100">
+        <div className="container">
           <h2 className="text-center text-theme h2">Skill set</h2>
           <div className="row">
             <div className="col-6 col-md-3">
