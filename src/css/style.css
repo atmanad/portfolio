@@ -16,6 +16,11 @@ body::-webkit-scrollbar {
 .fs-30 {
   font-size: 30px;
 }
+@media screen and (max-width: 576px) {
+  .fs-30 {
+    font-size: 20px;
+  }
+}
 .fs-20 {
   font-size: 20px;
 }
@@ -275,4 +280,7 @@ i {
 .timeline .right-bottom {
   left: 50%;
   top: calc(50% - 3px);
+}
+.white-text {
+  color: white !important;
 }

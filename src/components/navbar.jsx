@@ -23,9 +23,9 @@ class NavbarPage extends Component {
       <Router>
         <MDBNavbar className="bg-theme fixed-top" dark expand="md">
           <MDBNavbarBrand>
-            <strong className="white-text fs-30 pl-3">ATMAN DAS</strong>
+            <strong className="fs-30 pl-3"><a href="#intro" className="white-text">ATMAN DAS</a></strong>
           </MDBNavbarBrand>
-          <MDBNavbarToggler onClick={this.toggleCollapse} />
+          <MDBNavbarToggler onClick={this.toggleCollapse} ><i className="fas fa-align-right"></i></MDBNavbarToggler>
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav right>
               <MDBNavItem active className="p-2">
