@@ -12,6 +12,7 @@ class footer extends React.Component {
               href="https://www.facebook.com/atmanad.GH00ST"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="facebook icon"
             >
               <MDBIcon fab icon="facebook" />
             </a>
@@ -21,6 +22,7 @@ class footer extends React.Component {
               href="https://www.instagram.com/__gh00st/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="instagram icon"
             >
               <MDBIcon fab icon="instagram" />
             </a>
@@ -30,17 +32,18 @@ class footer extends React.Component {
               href="https://www.linkedin.com/in/atmanad/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="linkedin icon"
             >
               <MDBIcon fab icon="linkedin" />
             </a>
           </div>
           <div className="s-icon phone d-inline-block">
-            <a href="tel:7008635343">
+            <a href="tel:7008635343" aria-label="phone icon">
               <MDBIcon icon="phone-alt" />
             </a>
           </div>
           <div className="s-icon mail d-inline-block">
-            <a href="mailto:atmanad0001@gmail.com">
+            <a href="mailto:atmanad0001@gmail.com" aria-label="mail icon">
               <MDBIcon far icon="envelope" />
             </a>
           </div>

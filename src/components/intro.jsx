@@ -13,16 +13,18 @@ export default class intro extends Component {
                   className="rounded-circle img-fluid mx-auto"
                   alt="avatar"
                   data-aos="zoom-out"
+                  height="216"
+                  width="216"
                 />
                 <h2
-                  className="display-4 font-weight-bold white-text pt-5 mb-2"
-                  data-aos="zoom-out"                >
+                  className="intro-text pt-5 mb-2"
+                  data-aos="zoom-out">
                   Hey!, I'm Atman
                 </h2>
                 <hr className="hr-light" />
-                <h4 className="white-text mt-4 mb-2" data-aos="zoom-out">
-                  An IT undergraduate passionate about Web Development
-                </h4>
+                <h3 className="white-text mt-4 mb-2" data-aos="zoom-out">
+                  Full stack Web Developer
+                </h3>
                 <h4 className="white-text" data-aos="zoom-out">
                   Web Dev Lead
                   <br className="d-sm-none" /> @

@@ -21,7 +21,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/vps1.webp")} alt="First slide" className=" project-image img-fluid" />
+                        <img src={require("../img/vps1.webp")} alt="First slide" className=" project-image img-fluid" width="415" height="202.2" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -30,7 +30,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/vps2.webp")} alt="Second slide" className=" project-image img-fluid" />
+                        <img src={require("../img/vps2.webp")} alt="Second slide" className=" project-image img-fluid" width="415" height="202.2" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -39,7 +39,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/vps3.webp")} alt="Third slide" className="project-image img-fluid" />
+                        <img src={require("../img/vps3.webp")} alt="Third slide" className="project-image img-fluid" width="415" height="202.2" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -64,7 +64,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/mysuru1.webp")} alt="First slide" className="project-image img-fluid" />
+                        <img src={require("../img/mysuru1.webp")} alt="First slide" className="project-image img-fluid" width="415" height="203.5" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -73,7 +73,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/mysuru2.webp")} alt="Second slide" className=" project-image img-fluid z-depth-1" />
+                        <img src={require("../img/mysuru2.webp")} alt="Second slide" className=" project-image img-fluid z-depth-1" width="415" height="203.5" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -82,7 +82,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/mysuru3.webp")} alt="Third slide" className=" project-image img-fluid" />
+                        <img src={require("../img/mysuru3.webp")} alt="Third slide" className=" project-image img-fluid" width="415" height="203.5" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -109,7 +109,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/mydoc1.webp")} alt="First slide" className=" project-image img-fluid" />
+                        <img src={require("../img/mydoc1.webp")} alt="First slide" className=" project-image img-fluid" width="415" height="202.9" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -118,7 +118,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/mydoc2.webp")} alt="Second slide" className=" project-image img-fluid" />
+                        <img src={require("../img/mydoc2.webp")} alt="Second slide" className=" project-image img-fluid" width="415" height="202.9" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -127,7 +127,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/mydoc3.webp")} alt="Third slide" className=" project-image img-fluid" />
+                        <img src={require("../img/mydoc3.webp")} alt="Third slide" className=" project-image img-fluid" width="415" height="202.9" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -152,7 +152,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/dsccvrgu1.webp")} alt="First slide" className=" project-image img-fluid" />
+                        <img src={require("../img/dsccvrgu1.webp")} alt="First slide" className=" project-image img-fluid" width="415" height="203.3" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>
@@ -161,7 +161,7 @@ export default class skills extends Component {
                     <MDBView>
                       <div className='filler' />
                       <LazyLoad placeholder={<Preloader />} once={true} offset={[-90, 100]}>
-                        <img src={require("../img/dsccvrgu2.webp")} alt="Second slide" className=" project-image img-fluid" />
+                        <img src={require("../img/dsccvrgu2.webp")} alt="Second slide" className=" project-image img-fluid" width="415" height="203.3" />
                       </LazyLoad>
                       <div className='filler' />
                     </MDBView>

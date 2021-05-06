@@ -12,7 +12,7 @@ function Education() {
                         </div>
                     </div>
                     <div className="col-8">
-                        <h4>B.Tech</h4>
+                        <p className="h4">B.Tech</p>
                         <p className="mb-0">C V Raman Global University, Bhubaneswar</p>
                         <p className="mb-0 text-muted">2017-2021</p>
                         <p>Information Technology</p>
@@ -31,7 +31,7 @@ function Education() {
                 </div>
                 <div className="row d-flex justify-content-end align-items-center connecting-lines my-5">
                     <div className="col-8 text-right">
-                        <h4>12th</h4>
+                        <p className="h4">12th</p>
                         <p className="mb-0">Khallikote Jr. College, Berhampur</p>
                         <p className="mb-0 text-muted">YOP: 2016</p>
                     </div>
@@ -59,7 +59,7 @@ function Education() {
                         </div>
                     </div>
                     <div className="col-8">
-                        <h4>10th</h4>
+                        <p className="h4">10th</p>
                         <p className="mb-0">Medical Campus, Berhampur</p>
                         <p className="mb-0 text-muted">YOP: 2014</p>
                     </div>

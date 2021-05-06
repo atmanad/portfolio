@@ -7,6 +7,7 @@ body,
 html {
   height: 100%;
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -26,7 +27,6 @@ body::-webkit-scrollbar {
 }
 .text-theme {
   color: #000205;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .s-icon {
   cursor: pointer;
@@ -63,6 +63,11 @@ body::-webkit-scrollbar {
   background-attachment: fixed;
   background-size: cover;
 }
+.intro-text {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+}
 .nav-link {
   font-size: 16px;
 }
@@ -93,72 +98,20 @@ div.progress {
   color: #799eb7;
 }
 
-.html-bg {
-  background-color: #e54c21;
-}
-
 .html-text {
   color: #e54c21;
-}
-
-.css-bg {
-  background-color: #214ce5;
 }
 
 .css-text {
   color: #214ce5;
 }
 
-.js-bg {
-  background-color: #f7e018;
-}
-
 .js-text {
   color: #f7e018;
 }
 
-.python-bg {
-  background-color: #4182b4;
-}
-
-.python-text {
-  color: #4182b4;
-}
-
-.firebase-bg {
-  background-color: #ffcc28;
-}
-
-.jquery-bg {
-  background-color: #0268ae;
-}
-
-.bootstrap-bg {
-  background-color: #563d7c;
-}
-
 .bootstrap-text {
   color: #563d7c;
-}
-
-.mongodb-bg {
-  background-color: #54b73f;
-}
-
-.mongodb-text {
-  color: #54b73f;
-}
-
-.node-bg {
-  background-color: #74ac63;
-}
-
-.express-bg {
-  background-color: #5c6870;
-}
-
-.react-bg {
-  background-color: #61dbfb;
 }
 
 .card {
