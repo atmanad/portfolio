@@ -12,7 +12,17 @@ body::-webkit-scrollbar {
   display: none;
 }
 .bg-theme {
-  background-color: #000205;
+  background-color: rgba(0, 2, 5, 0.7);
+}
+.text-e0e0e0 {
+  color: #e0e0e0;
+}
+
+.pb-54 {
+  padding-bottom: 54px;
+}
+.section-margin-padding {
+  padding: 117px 0px 117px 0px;
 }
 .fs-30 {
   font-size: 30px;
@@ -33,7 +43,7 @@ body::-webkit-scrollbar {
   border: 1px solid white;
   font-size: 30px;
   padding: 2px 10px;
-  margin: 25px 18px;
+  margin: 0px 18px;
   border-radius: 5px;
   transition: background-color 0.8s !important;
 }
@@ -56,12 +66,15 @@ body::-webkit-scrollbar {
   background-color: #29a819;
 }
 #intro {
-  background-image: url("../img/bg.webp");
   height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: rgba(0, 2, 5, 0.8);
+}
+#education {
+  background-color: rgba(0, 2, 5, 0.7);
+}
+#skills,
+#projects {
+  background-color: rgba(0, 2, 5, 0.6);
 }
 .intro-text {
   font-size: 2.8rem;
@@ -114,29 +127,10 @@ div.progress {
   color: #563d7c;
 }
 
-.card {
-  transition: box-shadow 1s;
+div.card {
+  background-color: #e6e6e6;
 }
 
-.card:hover {
-  -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
-  box-shadow: 0 12px 15px 0 rgba(148, 12, 21, 0.24),
-    0 17px 50px 0 rgba(148, 12, 21, 0.24) !important;
-}
-
-.py-50 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.py-80 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.my-100 {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 #skills .fab {
   font-size: 90px;
 }
@@ -165,14 +159,17 @@ div.progress {
   margin-right: auto;
 }
 .project-link {
-  color: #000205;
+  color: #e6e6e6;
 }
 .circle {
   padding: 16px 20px;
   border-radius: 30%;
-  background-color: #000205;
+  background-color: #e6e6e6;
 }
 i {
+  color: #000205;
+}
+#contact i {
   color: white;
 }
 .connecting-lies.row .col-2 {
@@ -181,7 +178,8 @@ i {
 .connecting-lies.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #000205;
+  border-left: 3px solid #e6e6e6;
+
   z-index: 1;
 }
 .connecting-lines.row .col-2.bottom::after {
@@ -203,7 +201,8 @@ i {
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #000205;
+  border-top: 3px solid #e6e6e6;
+
   margin: 0;
   top: 17px;
   position: relative;
@@ -213,7 +212,8 @@ i {
   overflow: hidden;
 }
 .timeline .corner {
-  border: 3px solid #000205;
+  border: 3px solid #e6e6e6;
+
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -236,4 +236,14 @@ i {
 }
 .white-text {
   color: white !important;
+}
+.preloader {
+  height: 203px;
+  width: 415px;
+  background-color: white;
+}
+.body.dark {
+  background-color: rgba(0, 2, 5, 0.9);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23000000' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23343534'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  /* background by SVGBackgrounds.com */
 }

@@ -4,28 +4,24 @@ export default class intro extends Component {
   render() {
     return (
       <MDBView id="intro">
-        <MDBMask overlay="black-strong">
+        <MDBMask overlay="black-stron">
           <div className="flex-center mt-3">
             <div className="row d-flex justify-content-center text-center">
               <div className="col-md-12 mt-5">
                 <img
-                  src={require("../img/avatar.jfif")}
+                  src={require("../img/avatar.JPG")}
                   className="rounded-circle img-fluid mx-auto"
                   alt="avatar"
-                  data-aos="zoom-out"
                   height="216"
-                  width="216"
-                />
-                <h2
-                  className="intro-text pt-5 mb-2"
-                  data-aos="zoom-out">
+                  width="216" />
+                <h2 className="intro-text pt-5 mb-2">
                   Hey!, I'm Atman
                 </h2>
                 <hr className="hr-light" />
-                <h3 className="white-text mt-4 mb-2" data-aos="zoom-out">
+                <h3 className="text-e0e0e0 mt-4 mb-2">
                   Full stack Web Developer
                 </h3>
-                <h4 className="white-text" data-aos="zoom-out">
+                <h4 className="text-e0e0e0">
                   Web Dev Lead
                   <br className="d-sm-none" /> @
                   <a href="https://dsccvrgu.tech" target="_blank" rel="noopener noreferrer">

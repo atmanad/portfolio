@@ -1,25 +1,31 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import "./css/style.css";
 import Navbar from "./components/navbar";
 import Intro from "./components/intro";
-import Skills from "./components/skills";
-import Projects from "./components/projects";
-import Footer from "./components/footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Education from "./components/Education";
-AOS.init();
+const SkillsComponent = lazy(() => import("./components/skills"));
+const EducationComponent = lazy(() => import("./components/Education"));
+const ProjectsComponent = lazy(() => import("./components/projects"));
+const FooterComponent = lazy(() => import("./components/footer"));
+const renderLoader = () => <p>Loading</p>;
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="body dark">
         <Navbar />
         <Intro />
-        <Skills />
-        <Education />
-        <Projects />
-        <Footer />
+        <Suspense fallback={renderLoader()}>
+          <SkillsComponent />
+        </Suspense>
+        <Suspense fallback={renderLoader()}>
+          <EducationComponent />
+        </Suspense>
+        <Suspense fallback={renderLoader()}>
+          <ProjectsComponent />
+        </Suspense>
+        <Suspense fallback={renderLoader()}>
+          <FooterComponent />
+        </Suspense>
       </div>
     );
   }
