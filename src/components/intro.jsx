@@ -9,10 +9,10 @@ export default class intro extends Component {
             <div className="row d-flex justify-content-center text-center">
               <div className="col-md-12 mt-5">
                 <img
-                  src={require("../img/avatar.JPG")}
-                  className="rounded-circle img-fluid mx-auto"
+                  src={require("../img/avatar.webp")}
+                  className="img-fluid mx-auto rounded-circle"
                   alt="avatar"
-                  height="216"
+                  height="233"
                   width="216" />
                 <h2 className="intro-text pt-5 mb-2">
                   Hey!, I'm Atman

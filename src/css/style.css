@@ -17,7 +17,6 @@ body::-webkit-scrollbar {
 .text-e0e0e0 {
   color: #e0e0e0;
 }
-
 .pb-54 {
   padding-bottom: 54px;
 }
@@ -238,8 +237,8 @@ i {
   color: white !important;
 }
 .preloader {
-  height: 203px;
-  width: 415px;
+  max-height: 203px;
+  max-width: 415px;
   background-color: white;
 }
 .body.dark {
