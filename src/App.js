@@ -11,7 +11,7 @@ const FooterComponent = loadable(() => import("./components/footer"));
 class App extends React.Component {
   render() {
     return (
-      <div className="body dark">
+      <div className="body">
         <Navbar />
         <Intro />
         <SkillsComponent />
