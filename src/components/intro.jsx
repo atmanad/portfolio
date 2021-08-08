@@ -19,10 +19,10 @@ export default class intro extends Component {
                 </h2>
                 <hr className="hr-light" />
                 <h3 className="text-e0e0e0 mt-4 mb-2">
-                  Full stack Web Developer
+                  Full Stack Web Developer
                 </h3>
                 <h4 className="text-e0e0e0">
-                  Web Dev Lead
+                  Former Web Dev Lead
                   <br className="d-sm-none" /> @
                   <a href="https://dsccvrgu.tech" target="_blank" rel="noopener noreferrer">
                     DSC CVRGU

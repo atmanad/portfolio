@@ -84,6 +84,19 @@ class Main extends React.Component {
             <div className="col-6 col-md-3">
               <div className="card">
                 <div className="card-body">
+                  <img
+                    src={require("../img/sqlserver.png")}
+                    className="b-img"
+                    alt="alt"
+                    height="60.84"
+                    width="90"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+              <div className="card">
+                <div className="card-body">
                   <i className="bootstrap-text fab fa-bootstrap"></i>
                 </div>
               </div>
@@ -148,6 +161,32 @@ class Main extends React.Component {
                     alt="cpp"
                     height="90"
                     width="80.09"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src={require("../img/csharp1.webp")}
+                    className="b-img"
+                    alt="cpp"
+                    height="90"
+                    width="90"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src={require("../img/dotnet.png")}
+                    className="b-img"
+                    alt="cpp"
+                    height="90"
+                    width="90"
                   />
                 </div>
               </div>

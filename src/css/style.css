@@ -178,7 +178,6 @@ i {
   content: "";
   position: absolute;
   border-left: 3px solid #e6e6e6;
-
   z-index: 1;
 }
 .connecting-lines.row .col-2.bottom::after {
@@ -201,7 +200,6 @@ i {
 }
 .timeline hr {
   border-top: 3px solid #e6e6e6;
-
   margin: 0;
   top: 17px;
   position: relative;
@@ -212,14 +210,13 @@ i {
 }
 .timeline .corner {
   border: 3px solid #e6e6e6;
-
   width: 100%;
   position: relative;
   border-radius: 15px;
 }
 .timeline .top-right {
   left: 50%;
-  top: -50%;
+  top: -51%;
 }
 .timeline .left-bottom {
   left: -50%;
@@ -227,7 +224,7 @@ i {
 }
 .timeline .top-left {
   left: -50%;
-  top: -50%;
+  top: -51%;
 }
 .timeline .right-bottom {
   left: 50%;
