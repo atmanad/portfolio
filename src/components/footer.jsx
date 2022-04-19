@@ -7,9 +7,19 @@ class footer extends React.Component {
       <div className="container-fluid section-margin-padding bg-theme" id="contact">
         <h2 className="text-center text-e0e0e0 h2 pb-54">Contact Me</h2>
         <div className="text-center">
+          <div className="s-icon d-inline-block mt-5 mt-md-0">
+            <a href="https://anewbieprogrammer.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="blogger icon">
+              <MDBIcon fab icon="blogger" />
+            </a>
+          </div>
+          <div className="s-icon d-inline-block mt-5 mt-md-0">
+            <a href="https://github.com/atmanad" target="_blank" rel="noopener noreferrer" aria-label="github icon">
+              <MDBIcon fab icon="github" />
+            </a>
+          </div>
           <div className="s-icon fb d-inline-block mt-5 mt-md-0">
             <a
-              href="https://www.facebook.com/atmanad.GH00ST"
+              href="https://www.facebook.com/atmandas.ad/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="facebook icon"            >
@@ -42,11 +52,6 @@ class footer extends React.Component {
           <div className="s-icon mail d-inline-block mt-5 mt-md-0">
             <a href="mailto:atmanad0001@gmail.com" aria-label="mail icon">
               <MDBIcon far icon="envelope" />
-            </a>
-          </div>
-          <div className="s-icon d-inline-block mt-5 mt-md-0">
-            <a href="https://github.com/atmanad" target="_blank" rel="noopener noreferrer" aria-label="github icon">
-              <MDBIcon fab icon="github" />
             </a>
           </div>
         </div>

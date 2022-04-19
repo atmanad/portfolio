@@ -48,7 +48,7 @@ export default class skills extends Component {
                   </MDBCarouselInner>
                 </MDBCarousel>
               </MDBContainer>
-              <a href="https://virtualpolicestation.atmandas.co" className="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://virtualpolicestation.atmandas.me" className="project-link" target="_blank" rel="noopener noreferrer">
                 <h2 className='text-center project-title mt-2'>Virtual Police Station</h2>
               </a>
             </div>
@@ -91,7 +91,7 @@ export default class skills extends Component {
                   </MDBCarouselInner>
                 </MDBCarousel>
               </MDBContainer>
-              <a href="https://mysuru.atmandas.co" className="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://mysuru.atmandas.me" className="project-link" target="_blank" rel="noopener noreferrer">
                 <h2 className='text-center project-title mt-2'>Mysuru Tourism</h2>
               </a>
             </div>
@@ -136,7 +136,7 @@ export default class skills extends Component {
                   </MDBCarouselInner>
                 </MDBCarousel>
               </MDBContainer>
-              <a href="https://mydoc.atmandas.co" className="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://mydoc.atmandas.me" className="project-link" target="_blank" rel="noopener noreferrer">
                 <h2 className='text-center project-title mt-2'>MyDoc</h2>
               </a>
             </div>
@@ -170,7 +170,7 @@ export default class skills extends Component {
                   </MDBCarouselInner>
                 </MDBCarousel>
               </MDBContainer>
-              <a href="https://dsccvrgu.tech" className="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://dsc-cvrgu.herokuapp.com/" className="project-link" target="_blank" rel="noopener noreferrer">
                 <h2 className='text-center project-title mt-2'>DSC CVRGU</h2>
               </a>
             </div>

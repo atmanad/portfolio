@@ -9,10 +9,10 @@ export default class intro extends Component {
             <div className="row d-flex justify-content-center text-center">
               <div className="col-md-12 mt-5">
                 <img
-                  src={require("../img/avatar.webp")}
+                  src={require("../img/avatar2-216.png")}
                   className="img-fluid mx-auto rounded-circle"
                   alt="avatar"
-                  height="233"
+                  height="216"
                   width="216" />
                 <h2 className="intro-text pt-5 mb-2">
                   Hey!, I'm Atman
@@ -24,7 +24,7 @@ export default class intro extends Component {
                 <h4 className="text-e0e0e0">
                   Former Web Dev Lead
                   <br className="d-sm-none" /> @
-                  <a href="https://dsccvrgu.tech" target="_blank" rel="noopener noreferrer">
+                  <a href="https://dsc-cvrgu.herokuapp.com/team" target="_blank" rel="noopener noreferrer">
                     DSC CVRGU
                   </a>
                 </h4>
