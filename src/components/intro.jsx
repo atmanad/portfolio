@@ -9,7 +9,7 @@ export default class intro extends Component {
             <div className="row d-flex justify-content-center text-center">
               <div className="col-md-12 mt-5">
                 <img
-                  src={require("../img/avatar2-216.png")}
+                  src={require("../img/avatar216.webp")}
                   className="img-fluid mx-auto rounded-circle"
                   alt="avatar"
                   height="216"

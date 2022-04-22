@@ -85,7 +85,7 @@ class Main extends React.Component {
               <div className="card">
                 <div className="card-body">
                   <img
-                    src={require("../img/sqlserver.png")}
+                    src={require("../img/sqlserver.webp")}
                     className="b-img"
                     alt="alt"
                     height="60.84"
@@ -169,7 +169,7 @@ class Main extends React.Component {
               <div className="card">
                 <div className="card-body">
                   <img
-                    src={require("../img/csharp1.webp")}
+                    src={require("../img/csharp.webp")}
                     className="b-img"
                     alt="cpp"
                     height="90"
