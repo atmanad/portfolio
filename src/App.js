@@ -1,26 +1,32 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import loadable from "@loadable/component";
-import "./css/style.css";
-import Navbar from "./components/navbar";
-import Intro from "./components/intro";
-const SkillsComponent = loadable(() => import("./components/skills"));
-const EducationComponent = loadable(() => import("./components/Education"));
-const ProjectsComponent = loadable(() => import("./components/projects"));
-const FooterComponent = loadable(() => import("./components/footer"));
+import NavBar from "./components/NavBar";
+import ProjectsCarousel from "./components/ProjectsCarousel";
+import Intro from "./components/Intro"
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
-class App extends React.Component {
-  render() {
+
+// const SkillsComponent = loadable(() => import("./components/Skills"));
+// const ProjectsComponent = loadable(() => import("./components/projects"));
+// const FooterComponent = loadable(() => import("./components/Footer"));
+// const IntroComponent = loadable(()=> import("./components/Intro"))
+
+
+
+function App() {
     return (
       <div className="body">
-        <Navbar />
-        <Intro />
-        <SkillsComponent />
-        <EducationComponent />
-        <ProjectsComponent />
-        <FooterComponent />
+        <NavBar />
+        <Intro/>
+        <Skills />
+        <Experience/>
+        <ProjectsCarousel/>
+        <Footer />
       </div>
     );
   }
-}
 
 export default App;
