@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import loadable from "@loadable/component";
-import NavBar from "./components/NavBar";
-import ProjectsCarousel from "./components/ProjectsCarousel";
-import Intro from "./components/Intro"
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
+import NavBar from "./components/NavBar.jsx";
+import ProjectsCarousel from "./components/ProjectsCarousel.jsx";
+import Intro from "./components/Intro.jsx"
+import Experience from "./components/Experience.jsx";
+import Skills from "./components/Skills.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 // const SkillsComponent = loadable(() => import("./components/Skills"));
