@@ -1,7 +1,7 @@
 import React from "react";
 
-
-export default function Intro() {
+ 
+export default function Introduction() {
   return (
     <div id="intro">
           <div className="row d-flex justify-content-center text-center">

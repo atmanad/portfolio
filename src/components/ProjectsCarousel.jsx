@@ -8,7 +8,8 @@ import SpendInsight from '../img/spend-insight2.png';
 import MusicPlayer from '../img/musicplayer.png';
 import '../css/style.css';
 
-function ProjectCarousel() {
+
+export default function ProjectCarousel() {
   return (
     <div id="projects" className="section-margin-padding">
       <div className="container px-0">
@@ -125,5 +126,3 @@ function ProjectCarousel() {
     </div>
   );
 }
-
-export default ProjectCarousel;

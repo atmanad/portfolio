@@ -1,6 +1,8 @@
 import React from 'react'
 import preloader from '../img/preloader.gif'
-function Preloader() {
+
+
+export default function Preloader() {
     return (
         <>
             <div className="preloader d-none d-md-block">
@@ -11,4 +13,3 @@ function Preloader() {
     )
 }
 
-export default Preloader

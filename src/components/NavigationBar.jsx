@@ -6,7 +6,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 
 import "../css/style.css"
 
-function NavigationBar() {
+export default function NavigationBar() {
   return (
     <Navbar expand="lg" className="bg-theme">
       <Container>
@@ -29,5 +29,3 @@ function NavigationBar() {
     </Navbar>
   );
 }
-
-export default NavigationBar;

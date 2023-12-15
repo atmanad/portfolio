@@ -10,8 +10,9 @@ import { FaNode } from "react-icons/fa6";
 import { SiCsharp } from "react-icons/si";
 import { SiDotnet } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
-export default function Main() {
 
+
+export default function SkillSet() {
   return (
     <div id="skills" className="section-margin-padding">
       <div className="container">

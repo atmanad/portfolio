@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import loadable from "@loadable/component";
-import NavBar from "./components/NavigationBar.jsx";
+import NavigationBar from "./components/NavigationBar.jsx";
 import ProjectsCarousel from "./components/ProjectsCarousel.jsx";
-import Intro from "./components/Intro.jsx"
+import Introduction from "./components/Introduction.jsx"
 import Experience from "./components/Experience.jsx";
-import Skills from "./components/Skills.jsx";
-import Footer from "./components/Footer.jsx";
+import SkillSet from "./components/SkillSet.jsx";
+import Contact from "./components/Contact.jsx";
 
 
 // const SkillsComponent = loadable(() => import("./components/Skills"));
@@ -19,12 +19,12 @@ import Footer from "./components/Footer.jsx";
 function App() {
     return (
       <div className="body">
-        <NavBar />
-        <Intro/>
-        <Skills />
+        <NavigationBar />
+        <Introduction/>
+        <SkillSet />
         <Experience/>
         <ProjectsCarousel/>
-        <Footer />
+        <Contact />
       </div>
     );
   }

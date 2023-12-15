@@ -4,8 +4,8 @@ import { FaGithub } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaPhone, FaLinkedin } from "react-icons/fa";
 
-
-export default function Footer() {
+ 
+export default function Contact() {
   return (
     <div className="container-fluid section-margin-padding bg-theme" id="contact">
       <h2 className="text-center text-e0e0e0 h2 pb-54">Contact Me</h2>
