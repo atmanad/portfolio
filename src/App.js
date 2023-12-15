@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import loadable from "@loadable/component";
-import NavBar from "./components/NavBar.jsx";
+import NavBar from "./components/NavigationBar.jsx";
 import ProjectsCarousel from "./components/ProjectsCarousel.jsx";
 import Intro from "./components/Intro.jsx"
 import Experience from "./components/Experience.jsx";
