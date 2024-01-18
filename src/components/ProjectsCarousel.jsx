@@ -1,11 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
-import MyDoc1 from '../img/mydoc1.webp';
-import DscCvrgu from '../img/dsccvrgu1.webp';
-import Mysuru from '../img/mysuru1.webp';
-import Vps from '../img/vps1.webp';
-import SpendInsight from '../img/spend-insight2.png';
-import MusicPlayer from '../img/musicplayer.png';
+import MyDoc1 from '../img/mydoc1.png';
+import DscCvrgu from '../img/dsccvrgu1.png';
+import Mysuru from '../img/mysuru1.png';
+import Vps from '../img/vps1.png';
+import SpendInsight1 from '../img/spendInsight1.png';
+import MusicPlayer1 from '../img/musicplayer1.png';
+import TweetApp from '../img/tweetapp1.png';
+
 import '../css/style.css';
 
 
@@ -17,12 +19,29 @@ export default function ProjectCarousel() {
         <Carousel className='px-4 py-5 my-5'>
           <Carousel.Item className='px-3'>
             <Card className='carousel-card'>
+              <Card.Img variant="top" src={TweetApp} />
+              <Card.Body>
+                <Card.Title>Tweet App</Card.Title>
+                <ul className='card-ul'>
+                  <li>Social media app using React, SQL, Redux, Docker and  Azure App services. </li>
+                  <li>User centric functionalities like posting, viewing, liking, and replying to tweets.</li>
+                </ul>
+              </Card.Body>
+              <a href="https://tweetapp-atman.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <Card.Footer>
+                  View
+                </Card.Footer>
+              </a>
+            </Card>
+          </Carousel.Item>
+          <Carousel.Item className='px-3'>
+            <Card className='carousel-card'>
               <Card.Img variant="top" src={DscCvrgu} />
               <Card.Body>
                 <Card.Title>DSC CVRGU</Card.Title>
                 <ul className='card-ul'>
-                  <li>Developed the official website for Google DSC C V Raman Global University.</li>
-                  <li>Provides features like information about Events, Teams, Authentication mechanism and many more. </li>
+                  <li>Official website for Google DSC C V Raman Global University.</li>
+                  <li>Provides information about Events, Teams, Club etc.</li>
                   <li>Utilized React, Bootstrap, and Firebase in the development process.</li>
                 </ul>
               </Card.Body>
@@ -35,13 +54,12 @@ export default function ProjectCarousel() {
           </Carousel.Item>
           <Carousel.Item className='px-3'>
             <Card className='carousel-card'>
-              <Card.Img variant="top" src={SpendInsight} />
+              <Card.Img variant="top" src={SpendInsight1} />
               <Card.Body>
                 <Card.Title>Spend Insight</Card.Title>
                 <ul className='card-ul'>
                   <li>Developed a React/Redux spend tracker app for budget control, leveraging Node.js and MongoDB for backend data management. </li>
                   <li>Deployed on Netlify for frontend and Vercel for backend.</li>
-                  <li>It has expense categorization and spending summaries.</li>
                 </ul>
               </Card.Body>
               <a href="https://spend-insight.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -57,9 +75,8 @@ export default function ProjectCarousel() {
               <Card.Body>
                 <Card.Title>My Doc</Card.Title>
                 <ul className='card-ul'>
-                  <li>Developed "MyDoc" project integrating MongoDB, Express, React, and Node.js.</li>
-                  <li>Features include country, state, and district-specific COVID-19 data, appointment scheduling, a chatbot, and an e-commerce platform for purchasing COVID-19 essentials.</li>
-                  <li>Utilized SendGrid for communication and deployed the application on Heroku.</li>
+                  <li>A website featuring country, state, and district-specific COVID-19 data, appointment scheduling, a chatbot, and an e-commerce platform for purchasing COVID-19 essentials.</li>
+                  <li>Developed using MongoDB, Express, React, and Node.js, SendGrid, Heroku</li>
                 </ul>
               </Card.Body>
               <a href='https://ad-mydoc.netlify.app/' target="_blank" rel="noopener noreferrer">
@@ -77,7 +94,6 @@ export default function ProjectCarousel() {
                 <ul className='card-ul'>
                   <li>Developed a website to enhance tourists' experiences in Mysuru.</li>
                   <li>Utilized technologies including MERN stack, Firebase, OpenWeather API, Flask, DialogFlow, and Covid19 API for various functionalities.</li>
-                  <li>Hosted the application on Heroku for seamless accessibility and integration of diverse features.</li>
                 </ul>
               </Card.Body>
               <a href="https://tourism-mysuru.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -106,7 +122,7 @@ export default function ProjectCarousel() {
           </Carousel.Item>
           <Carousel.Item className='px-3'>
             <Card className='carousel-card'>
-              <Card.Img variant="top" src={MusicPlayer} />
+              <Card.Img variant="top" src={MusicPlayer1} />
               <Card.Body>
                 <Card.Title>Music Player</Card.Title>
                 <ul className='card-ul'>
