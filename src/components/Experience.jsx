@@ -13,7 +13,7 @@ export default function Experience() {
                                 <div href="none" className="timeline-content">
                                     <span className="year">2021</span>
                                     <div className="inner-content">
-                                        <h3 className="title">.NET Full Stack Developer</h3>
+                                        <h3 className="title">Full Stack Developer</h3>
                                         <p className="description">
                                             Cognizant Technology Solutions, Pune
                                         </p>

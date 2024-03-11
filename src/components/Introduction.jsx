@@ -17,7 +17,7 @@ export default function Introduction() {
               </h2>
               <hr className="hr-light" />
               <h3 className="text-e0e0e0 mt-4 mb-2">
-                .NET Full Stack Developer
+                React.js Full Stack Developer
               </h3>
               <h4 className="text-e0e0e0">
                 Software Engineer

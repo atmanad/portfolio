@@ -21,6 +21,13 @@ export default function SkillSet() {
           <div className="col-6 col-md-3">
             <div className="card">
               <div className="card-body">
+                <FaReact className='react skill-icon' />
+              </div>
+            </div>
+          </div>
+          <div className="col-6 col-md-3">
+            <div className="card">
+              <div className="card-body">
                 <SiDotnet className='dotnet skill-icon' />
               </div>
             </div>
@@ -63,13 +70,6 @@ export default function SkillSet() {
           <div className="col-6 col-md-3">
             <div className="card">
               <div className="card-body">
-                <SiFirebase className='firebase skill-icon' />
-              </div>
-            </div>
-          </div>
-          <div className="col-6 col-md-3">
-            <div className="card">
-              <div className="card-body">
                 <SiMongodb className='mongodb skill-icon' />
               </div>
             </div>
@@ -97,13 +97,6 @@ export default function SkillSet() {
           <div className="col-6 col-md-3">
             <div className="card">
               <div className="card-body">
-                <FaReact className='react skill-icon' />
-              </div>
-            </div>
-          </div>
-          <div className="col-6 col-md-3">
-            <div className="card">
-              <div className="card-body">
                 <FaNode className='node skill-icon' />
               </div>
             </div>
@@ -114,10 +107,10 @@ export default function SkillSet() {
                 {/* <FaJenkins className='jenkins skill-icon' /> */}
                 {/* <Jenkins className="img-fluid"/> */}
                 <img
-                    src={require("../img/jenkins.png")}
-                    className="b-img"
-                    alt="firebase"
-                  />
+                  src={require("../img/jenkins.png")}
+                  className="b-img"
+                  alt="firebase"
+                />
               </div>
             </div>
           </div>
@@ -127,3 +120,11 @@ export default function SkillSet() {
   );
 }
 
+
+{/* <div className="col-6 col-md-3">
+<div className="card">
+  <div className="card-body">
+    <SiFirebase className='firebase skill-icon' />
+  </div>
+</div>
+</div> */}
