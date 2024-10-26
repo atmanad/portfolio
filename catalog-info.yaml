@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: portfolio
+  description: |
+    Portfolio website made with React.
+  links:
+    - title: Website
+      url: https://atman-portfolio.netlify.app/
+spec:
+  type: library
+  owner: Atman Das
+  lifecycle: experimental
