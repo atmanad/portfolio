@@ -24,6 +24,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        
+      - name: Run script with CI set to false
+        run: |
+          echo "CI is set to $CI before modification"
+          CI=false npm run your-script
 
       - name: Build project
         run: npm run build
