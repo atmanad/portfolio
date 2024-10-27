@@ -7,6 +7,15 @@ metadata:
   links:
     - title: Website
       url: https://atman-portfolio.netlify.app/
+  annotations:
+    flowsource/jenkins-pipelines: sample-pipeline
+    flowsource/github-repo-owner: AtmanDas
+    flowsource/github-repo-name: portfolio
+    congnizant/github-repo-name: portfolio
+    cognizant/github-repo-owner: AtmanDas
+    flowsource/durationInDays: '180'
+
+    
 spec:
   type: library
   owner: Atman Das
