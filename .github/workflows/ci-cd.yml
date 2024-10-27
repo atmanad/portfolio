@@ -28,7 +28,7 @@ jobs:
       - name: Run script with CI set to false
         run: |
           echo "CI is set to $CI before modification"
-          CI=false npm run your-script
+          CI=false
 
       - name: Build project
         run: npm run build
