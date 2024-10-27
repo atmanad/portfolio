@@ -8,7 +8,7 @@ metadata:
     - title: Website
       url: https://atman-portfolio.netlify.app/
   annotations:
-    flowsource/jenkins-pipelines: react-pipeline
+    flowsource/jenkins-pipelines: Portfolio
     flowsource/github-repo-owner: AtmanDas
     flowsource/github-repo-name: portfolio
     congnizant/github-repo-name: portfolio
