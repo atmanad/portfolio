@@ -1,0 +1,33 @@
+image: node:18
+
+stages:
+  - build
+  - deploy
+
+variables:
+  CI: "true"
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day
+  only:
+    - master
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp -r build/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+  dependencies:
+    - build
