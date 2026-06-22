@@ -1,32 +1,28 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import loadable from "@loadable/component";
-import NavigationBar from "./components/NavigationBar.jsx";
-import ProjectsCarousel from "./components/ProjectsCarousel.jsx";
-import Introduction from "./components/Introduction.jsx"
-import Experience from "./components/Experience.jsx";
-import SkillSet from "./components/SkillSet.jsx";
-import Contact from "./components/Contact.jsx";
-
-
-// const SkillsComponent = loadable(() => import("./components/Skills"));
-// const ProjectsComponent = loadable(() => import("./components/projects"));
-// const FooterComponent = loadable(() => import("./components/Footer"));
-// const IntroComponent = loadable(()=> import("./components/Intro"))
-
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
-    return (
-      <div className="body">
-        <NavigationBar />
-        <Introduction/>
-        <SkillSet />
-        <Experience/>
-        <ProjectsCarousel/>
+  return (
+    <div className="min-h-screen bg-dark-900">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
         <Contact />
-      </div>
-    );
-  }
+      </main>
+      <Footer />
+    </div>
+  );
+}
 
 export default App;
